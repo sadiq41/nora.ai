@@ -24,9 +24,9 @@ const ChatPage = () => {
 
   return (
    
-    <div style={{height:'100vh', margin: 'auto', padding: '50px', padding_bottom: '100px', textAlign: 'center', fontFamily: 'Arial, sans-serif', color: '#41B3A3', backgroundColor: '#EAE7DC' }}>
+    <div style={{height:'100vh', margin: 'auto', padding_top :'0px', padding_left : '100px', textAlign: 'center', fontFamily: 'Astro Futuristic Font', color: '#41B3A3', backgroundColor: '#EAE7DC' }}>
       
-      <h1 style={{ color: '#E85A4F' }}>Nora.ai</h1>
+      <h1 style={{ color: '#E85A4F' }}>NORA .AI</h1>
       <div
         style={{
           border: '2px solid #4CAF50',
@@ -34,7 +34,7 @@ const ChatPage = () => {
           padding: '20px',
           marginBottom: '20px',
           minHeight: '150px',
-          backgroundColor: '#ECFDF5',
+          backgroundColor: '#edf2f4',
         }}
       >
         
@@ -47,7 +47,7 @@ const ChatPage = () => {
           type="text"
           value={inputText}
           onChange={handleInputChange}
-          placeholder="Type here..."
+          placeholder="Enter the Query..."
           style={{ padding: '10px', marginRight: '10px', borderRadius: '4px', border: '1px solid #4CAF50', color: 'white' }}
         />
         <button type="submit" style={{ padding: '10px', borderRadius: '4px', backgroundColor: '#4CAF50', color: 'white', border: 'none' }}>Submit</button>
